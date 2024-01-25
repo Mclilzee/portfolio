@@ -64,6 +64,7 @@ h3 {
 }
 
 section > .title {
+  margin-bottom: 0.25em;
 }
 
 section > .subtitle {
@@ -71,8 +72,17 @@ section > .subtitle {
   font-size: var(--fs-h3);
 }
 
-.intro > .subtitle,
-.about > .subtitle {
+section.intro > .title {
+  font-weight: var(--fw-reg);
+}
+
+section.intro > .title > strong {
+  font-weight: var(--fw-bold);
+  display: block;
+}
+
+section.intro > .subtitle,
+section.about > .subtitle {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
 }
