@@ -85,7 +85,7 @@ nav {
 
 .btn {
   display: inline-block;
-  padding: 0.5em 1.5em;
+  padding: 0.5em 2.5em;
   background: var(--clr-accent);
   color: var(--clr-dark);
   text-decoration: none;
@@ -169,6 +169,7 @@ section.intro > .subtitle {
 section.my-services {
   background-color: var(--clr-dark);
   background-image: url(./imgs/services-bg.jpg);
+  background-size: cover;
   background-blend-mode: hard-light;
   color: var(--clr-light);
   text-align: center;
@@ -189,6 +190,10 @@ section.my-services > .title::after {
   opacity: 0.25;
 }
 
+section.my-services > .services {
+  margin-bottom: 4em;
+}
+
 section.my-services .service {
   max-width: 500px;
   margin: 0 auto;
@@ -198,7 +203,8 @@ section.my-services .service {
   section.my-services > .services {
     display: flex;
     max-width: 1000px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     gap: 2em;
   }
 }
