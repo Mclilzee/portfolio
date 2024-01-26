@@ -140,4 +140,28 @@ section.my-services {
   background-image: url(./imgs/services-bg.jpg);
   background-blend-mode: hard-light;
   color: var(--clr-light);
+  text-align: center;
+}
+
+section.my-services > .title {
+  color: var(--clr-accent);
+  position: relative;
+}
+
+section.my-services > .title::after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
+  opacity: 0.25;
+}
+
+@media (min-width: 800px) {
+  section.my-services > .services {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
