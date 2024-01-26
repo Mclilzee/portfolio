@@ -40,7 +40,7 @@ body {
 }
 
 section {
-  padding: 5rem 2rem;
+  padding: 5em 2em;
 }
 
 img {
@@ -51,7 +51,7 @@ img {
 h1,
 h2,
 h3 {
-  line-height: 1.1;
+  line-height: 1;
   margin: 0;
 }
 
@@ -88,9 +88,38 @@ section.intro > .title > strong {
 section.intro > .subtitle,
 section.about > .subtitle {
   background: var(--clr-accent);
+  padding: 0.25em 1em;
   font-family: var(--ff-secondary);
+  margin-bottom: 1rem;
 }
 
 section.intro {
   position: relative;
+}
+
+@media (min-width: 600px) {
+  section.intro {
+    display: grid;
+    width: min-content;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+
+  section.intro > img {
+    grid-area: img;
+    min-width: 250px;
+  }
+
+  section.intro > .subtitle {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+  }
 }
