@@ -134,3 +134,9 @@ section.intro > .subtitle {
     width: calc(100% + 1.5em);
   }
 }
+
+section.my-services {
+  background-color: var(--clr-dark);
+  background-image: url();
+  color: var(--clr-light);
+}
