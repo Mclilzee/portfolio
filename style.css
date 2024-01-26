@@ -100,10 +100,6 @@ section.intro {
   position: relative;
 }
 
-.section.intro > img {
-  box-shadow: var(--bs);
-}
-
 @media (min-width: 600px) {
   section.intro {
     display: grid;
@@ -116,6 +112,7 @@ section.intro {
   }
 
   section.intro > img {
+    box-shadow: var(--bs);
     grid-area: img;
     min-width: 250px;
   }
