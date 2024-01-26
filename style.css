@@ -158,10 +158,16 @@ section.my-services > .title::after {
   opacity: 0.25;
 }
 
+section.my-services .service {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 @media (min-width: 800px) {
   section.my-services > .services {
     display: flex;
     max-width: 1000px;
     margin: 0 auto;
+    gap: 2em;
   }
 }
