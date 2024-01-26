@@ -138,6 +138,6 @@ section.intro > .subtitle {
 section.my-services {
   background-color: var(--clr-dark);
   background-image: url(./imgs/services-bg.jpg);
-  background-blend-mode: multiply;
+  background-blend-mode: hard-light;
   color: var(--clr-light);
 }
