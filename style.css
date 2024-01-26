@@ -39,6 +39,10 @@ body {
   line-height: 1.6;
 }
 
+section {
+  padding: 5rem 2rem;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -85,4 +89,8 @@ section.intro > .subtitle,
 section.about > .subtitle {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
+}
+
+section.intro {
+  position: relative;
 }
