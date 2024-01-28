@@ -286,7 +286,7 @@ section.my-work > .portfolio > .item:focus {
 section.my-work > .portfolio > .item > img:hover,
 section.my-work > .portfolio > .item:focus > img {
   transform: scale(1.2);
-  opacity: 0.75;
+  opacity: 0.5;
 }
 
 footer {
