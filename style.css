@@ -289,17 +289,18 @@ section.my-work > .portfolio > .item:focus > img {
   opacity: 0.75;
 }
 
-footer i {
+footer .icon {
   display: flex;
   width: 30px;
   height: 30px;
   display: inline-block;
   background-size: cover;
 }
-footer .github {
+
+footer .icon.github {
   background-image: url(./icons/github.svg);
 }
 
-footer .linkedin {
+footer .icon.linkedin {
   background-image: url(./icons/linkedin.svg);
 }
