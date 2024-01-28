@@ -288,3 +288,18 @@ section.my-work > .portfolio > .item:focus > img {
   transform: scale(1.2);
   opacity: 0.75;
 }
+
+footer i {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-size: cover;
+}
+footer .github {
+  background-image: url(./icons/github.svg);
+}
+
+footer .linkedin {
+  background-image: url(./icons/linkedin.svg);
+}
