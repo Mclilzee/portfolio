@@ -208,3 +208,8 @@ section.my-services .service {
     gap: 2em;
   }
 }
+
+section.about {
+  max-width: 1000px;
+  margin: 0 auto;
+}
