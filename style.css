@@ -236,9 +236,16 @@ section.about > img {
   section.about > .subtitle {
     grid-area: subtitle;
     grid-column: 1 / span 2;
+    position: relative;
+    left: -1em;
+    width: calc(100% + 1.5em);
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
   }
 
   section.about > img {
     grid-area: img;
+    position: relative;
+    z-index: 2;
   }
 }
