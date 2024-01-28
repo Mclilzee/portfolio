@@ -214,6 +214,10 @@ section.about {
   margin: 0 auto;
 }
 
+section.about > img {
+  box-shadow: var(--bs);
+}
+
 @media (min-width: 600px) {
   section.about {
     display: grid;
@@ -222,6 +226,7 @@ section.about {
       "title img"
       "subtitle img"
       "text img";
+    grid-column-gap: 2em;
   }
 
   section.about > .title {
@@ -230,6 +235,7 @@ section.about {
 
   section.about > .subtitle {
     grid-area: subtitle;
+    grid-column: 1 / span 2;
   }
 
   section.about > img {
