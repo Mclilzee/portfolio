@@ -126,6 +126,12 @@ section.about > .subtitle {
   margin-bottom: 1rem;
 }
 
+section.my-work > .subtitle {
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  margin-bottom: 2em;
+}
+
 section.intro {
   position: relative;
 }
