@@ -249,3 +249,14 @@ section.about > img {
     z-index: 2;
   }
 }
+
+section.my-work {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
+}
+
+section.my-work > .portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
