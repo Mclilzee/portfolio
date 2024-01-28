@@ -289,6 +289,13 @@ section.my-work > .portfolio > .item:focus > img {
   opacity: 0.75;
 }
 
+footer {
+  background: #111;
+  color: var(--clr-accent);
+  text-align: center;
+  padding: 2.5em 0;
+}
+
 footer .icon {
   display: flex;
   width: 30px;
