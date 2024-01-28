@@ -213,3 +213,26 @@ section.about {
   max-width: 1000px;
   margin: 0 auto;
 }
+
+@media (min-width: 600px) {
+  section.about {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-areas:
+      "title img"
+      "subtitle img"
+      "text img";
+  }
+
+  section.about > .title {
+    grid-area: title;
+  }
+
+  section.about > .subtitle {
+    grid-area: subtitle;
+  }
+
+  section.about > img {
+    grid-area: img;
+  }
+}
