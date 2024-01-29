@@ -393,6 +393,12 @@ section.my-work > .portfolio > .item > img.project {
     opacity 250ms linear;
 }
 
+section.my-work > .portfolio > .item > img.project:hover,
+section.my-work > .portfolio > .item:focus > img.project {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+
 section.my-work > .portfolio > .item > img.language {
   width: 40px;
   position: absolute;
@@ -408,12 +414,6 @@ section.my-work > .portfolio > .item > img.language.light {
 section.my-work > .portfolio > .item:focus {
   position: relative;
   z-index: 2;
-}
-
-section.my-work > .portfolio > .item > img.project:hover,
-section.my-work > .portfolio > .item:focus > img.project {
-  transform: scale(1.2);
-  opacity: 0.5;
 }
 
 footer {
