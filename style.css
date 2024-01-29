@@ -185,6 +185,26 @@ header .nav-toggle {
   z-index: 4;
 }
 
+body.nav-open nav {
+  transform: translateX(0);
+}
+
+body.nav-open > header .nav-toggle {
+  position: fixed;
+}
+
+body.nav-open .hamburger {
+  transform: rotate(0.625turn);
+}
+
+body.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-6px);
+}
+
+body.nav-open .hamburger::after {
+  opacity: 0;
+}
+
 header .hamburger {
   display: block;
   position: relative;
