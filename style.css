@@ -319,6 +319,13 @@ section.intro > .preview > a > .icon {
   }
 }
 
+@media (max-width: 400px) {
+  section.intro > .preview {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 section.my-services {
   background-color: var(--clr-dark);
   background-image: url(./imgs/services-bg.jpg);
