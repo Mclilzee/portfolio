@@ -1,4 +1,4 @@
-## Portfolio
+## [Portfolio](https://mclilzee.github.io/portfolio)
 
 This repository is for my personal portfolio website!
 For a detailed overview of my projects, skills, and experiences, please visit [My Portfolio](https://mclilzee.github.io/portfolio)
