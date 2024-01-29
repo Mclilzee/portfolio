@@ -462,6 +462,28 @@ footer ul {
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
+  text-align: center;
+}
+
+section.intro > .source-code {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: transform 250ms ease-in-out;
+}
+
+section.intro > .source-code:hover {
+  transform: scale(1.2);
+}
+
+section.intro > .source-code > .title {
+  margin: 0;
+}
+
+section.intro > .source-code > .github-icon {
+  width: 40px;
 }
 
 .portfolio-item-individual > img {
