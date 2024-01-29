@@ -254,6 +254,42 @@ section.intro > .subtitle {
   display: inline-block;
 }
 
+section.intro > .preview {
+  grid-area: preview;
+  display: flex;
+  justify-content: space-between;
+}
+
+section.intro > .preview > .live-preview,
+section.intro > .preview > .source-code {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: transform 250ms ease-in-out;
+}
+
+section.intro > .preview > a:hover {
+  transform: scale(1.2);
+}
+
+section.intro > .preview > a > .title {
+  margin: 0;
+}
+
+section.intro > .preview > a > .icon {
+  width: 30px;
+}
+
+@media (max-width: 800px) {
+  section.intro > .preview {
+    margin-top: 20px;
+  }
+}
+
 @media (min-width: 600px) {
   section.intro {
     display: grid;
@@ -262,7 +298,8 @@ section.intro > .subtitle {
     grid-column-gap: 1em;
     grid-template-areas:
       "img title"
-      "img subtitle";
+      "img subtitle"
+      "preview preview";
     grid-template-columns: min-content max-content;
   }
 
@@ -463,33 +500,6 @@ footer ul {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-}
-
-section.intro > .source-code {
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  transition: transform 250ms ease-in-out;
-}
-
-section.intro > .source-code:hover {
-  transform: scale(1.2);
-}
-
-section.intro > .source-code > .title {
-  margin: 0;
-}
-
-section.intro > .source-code > .github-icon {
-  width: 30px;
-}
-
-@media (max-width: 800px) {
-  section.intro > .source-code {
-    margin-top: 20px;
-  }
 }
 
 .portfolio-item-individual > img {
