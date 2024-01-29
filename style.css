@@ -254,14 +254,17 @@ section.intro > .subtitle {
   display: inline-block;
 }
 
-section.intro > .preview {
-  grid-area: preview;
-  display: flex;
+section.intro > ul.links {
+  list-style: none;
+  padding: 0;
+  grid-column: span 2;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   justify-content: space-between;
 }
 
-section.intro > .preview > .live-preview,
-section.intro > .preview > .source-code {
+section.intro > ul.links a {
+  font-weight: var(--fw-bold);
   text-decoration: none;
   color: inherit;
   cursor: pointer;
@@ -272,22 +275,12 @@ section.intro > .preview > .source-code {
   transition: transform 250ms ease-in-out;
 }
 
-section.intro > .preview > a:hover {
+section.intro > ul.links a:hover {
   transform: scale(1.2);
 }
 
-section.intro > .preview > a > .title {
-  margin: 0;
-}
-
-section.intro > .preview > a > .icon {
+section.intro > .links a > img {
   width: 30px;
-}
-
-@media (max-width: 800px) {
-  section.intro > .preview {
-    margin-top: 20px;
-  }
 }
 
 @media (min-width: 600px) {
@@ -298,8 +291,7 @@ section.intro > .preview > a > .icon {
     grid-column-gap: 1em;
     grid-template-areas:
       "img title"
-      "img subtitle"
-      "preview preview";
+      "img subtitle";
     grid-template-columns: min-content max-content;
   }
 
@@ -320,7 +312,7 @@ section.intro > .preview > a > .icon {
 }
 
 @media (max-width: 400px) {
-  section.intro > .preview {
+  section.intro > .links {
     flex-direction: column;
     gap: 20px;
   }
