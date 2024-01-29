@@ -499,6 +499,7 @@ footer ul {
 }
 
 .portfolio-item-individual {
+  font-size: 1.25rem;
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
