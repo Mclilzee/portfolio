@@ -183,7 +183,7 @@ header .nav-toggle {
   background: transparent;
   border: 0;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   right: 2em;
   top: 2em;
   z-index: 4;
@@ -218,7 +218,8 @@ header .hamburger,
 header .hamburger::before,
 header .hamburger::after {
   background: var(--clr-accent);
-  width: 2em;
+  width: 1.5em;
+  opacity: 0.8;
   height: 3px;
   border-radius: 1em;
   transition: transform 250ms ease-in-out;
@@ -437,4 +438,16 @@ footer ul {
   margin: 2em 0 0;
   padding: 0;
   gap: 2em;
+}
+
+section.intro > .portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section.intro > .portfolio-item-individual > p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
