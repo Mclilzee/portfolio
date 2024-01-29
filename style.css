@@ -440,13 +440,18 @@ footer ul {
   gap: 2em;
 }
 
-section.intro > .portfolio-item-individual {
+.portfolio-item-individual {
   padding: 0 2em 2em;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-section.intro > .portfolio-item-individual > p {
+.portfolio-item-individual > img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual > p {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
