@@ -394,9 +394,9 @@ section.my-work > .portfolio > .item > img.project {
 section.my-work > .portfolio > .item > img.language {
   width: 40px;
   position: absolute;
-  right: 6px;
-  bottom: 6px;
-  opacity: 0.2;
+  right: 10px;
+  bottom: 10px;
+  opacity: 0.4;
 }
 
 section.my-work > .portfolio > .item:focus {
