@@ -74,10 +74,6 @@ strong {
   font-weight: var(--fw-bold);
 }
 
-nav {
-  display: none;
-}
-
 :focus {
   outline: 3px solid var(--clr-accent);
   outline-offset: 3px;
