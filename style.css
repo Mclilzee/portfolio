@@ -483,7 +483,13 @@ section.intro > .source-code > .title {
 }
 
 section.intro > .source-code > .github-icon {
-  width: 40px;
+  width: 30px;
+}
+
+@media (max-width: 800px) {
+  section.intro > .source-code {
+    margin-top: 20px;
+  }
 }
 
 .portfolio-item-individual > img {
