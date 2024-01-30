@@ -352,12 +352,11 @@ section.my-services .service {
   margin: 0 auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   section.my-services > .services {
-    display: flex;
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 400px));
+    justify-content: center;
     gap: 2em;
   }
 }
