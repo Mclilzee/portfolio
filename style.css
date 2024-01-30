@@ -247,7 +247,6 @@ section.intro {
 
 section.intro > img {
   box-shadow: var(--bs);
-  z-index: 1;
 }
 
 section.intro > .subtitle {
@@ -308,7 +307,6 @@ section.intro > .links a > img {
     padding-left: 200px;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 1.5em);
   }
 }
 
