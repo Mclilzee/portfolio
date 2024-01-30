@@ -305,6 +305,7 @@ section.intro > .links a > img {
     grid-column: -1 / 1;
     grid-row: 2;
     text-align: right;
+    padding-left: 200px;
     position: relative;
     left: -1.5em;
     width: calc(100% + 1.5em);
