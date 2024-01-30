@@ -287,9 +287,8 @@ section.intro > .links a > img {
 @media (min-width: 600px) {
   section.intro {
     display: grid;
-    width: min-content;
-    margin: 0 auto;
-    grid-column-gap: 1em;
+    justify-content: center;
+    grid-column-gap: 5em;
     grid-template-areas:
       "img title"
       "img subtitle";
