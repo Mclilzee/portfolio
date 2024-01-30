@@ -283,7 +283,7 @@ section.intro > .links a > img {
   width: 30px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   section.intro {
     display: grid;
     justify-content: center;
