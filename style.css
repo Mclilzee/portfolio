@@ -287,7 +287,7 @@ section.intro > .links a > img {
   section.intro {
     display: grid;
     justify-content: center;
-    grid-column-gap: 5em;
+    grid-column-gap: 3em;
     grid-template-areas:
       "img title"
       "img subtitle";
@@ -496,7 +496,7 @@ footer ul {
 }
 
 .portfolio-item-individual > img {
-  max-width: 700px;
+  max-width: min(100%, 700px);
   margin: 0 auto;
 }
 
