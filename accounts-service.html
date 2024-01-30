@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Title</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h3 class="logo">&lt;devemad&gt;</h3>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="./index.html#home">Home</a></li>
+          <li><a href="./index.html#my-services">My Services</a></li>
+          <li><a href="./index.html#about">About me</a></li>
+          <li><a href="./index.html#work">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="title">Java<strong>Accounts Service Backend</strong></h1>
+      <p class="subtitle">Springboot accounting backend</p>
+      <img src="./imgs/acount-service.png" alt="Postman GET request that showing backend Logs">
+      <ul class="links">
+        <li>
+          <a target="_blank" href="">Source Code <img src="./icons/github.svg" alt="GitHub logo"/></a>
+        </li>
+        <li>
+          <a target="_blank" href="">Live Preview<img src="./icons/live-preview.svg" alt="Website page split into 3 sections"/></a>
+        </li>
+      </ul>
+    </section>
+    <div class="portfolio-item-individual">
+      <p>Developed an Account Service platform using REST API and Spring Security to facilitate secure storage and management of payments for an accounting service.</p>
+      <img src="./imgs/acount-service.png" alt="Postman GET request that showing backend Logs">
+      <p>The service operates over HTTPS Protocol with a self-signed certificate, ensuring secure communication for all endpoints. Users can also provide their own properly signed certificate for enhanced security.</p>
+      <p>The database, created in the root directory, securely stores user data with hashed passwords, user roles, and comprehensive event logging for auditing purposes.</p>
+      <p>The platform defines three roles - Admin, Accountant, and User - each with specific capabilities. Admins can manage roles, modify access, and lock/unlock accounts. Accountants can process payments, and Users can log in, register, and check received payments.</p>
+      <p>The registration process enforces email verification, password complexity, and valid name and last name requirements. The first registered user is automatically granted the Admin role, and subsequent users receive the User role, with Admins assigning the Accountant role.</p>
+      <p>The service requires Java version 17+, and the project can be built and run using the provided instructions. The Actuator feature enables server shutdown via a POST request to the `https://localhost:8080/actuator/shutdown` endpoint.</p>
+      <p>Various endpoints cater to different user roles, enabling actions like modifying user access and roles, processing payments, and auditing server events. General endpoints allow users to retrieve payment information and change passwords.</p>
+      <p>HTTP requests, demonstrated using Postman, showcase the functionality of registering users, modifying access and roles, processing payments, and auditing server events.</p>
+    </div>
+
+    <footer>
+      <a href="mailto:placeholder@com.www" class="email">emad.ali.ali@hotmail.com</a>
+      <ul class="social-list">
+        <li>
+          <a target="_blank" href="https://github.com/Mclilzee"><img src="icons/github-accent.svg" class="github icon"></img></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/mclilzee/"><img src="icons/linkedin.svg" class="linkedin icon"></img></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
