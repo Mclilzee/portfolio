@@ -48,7 +48,6 @@
       <p>The database, created in the root directory, securely stores user data with hashed passwords, user roles, and comprehensive event logging for auditing purposes.</p>
       <p>The platform defines three roles - Admin, Accountant, and User - each with specific capabilities. Admins can manage roles, modify access, and lock/unlock accounts. Accountants can process payments, and Users can log in, register, and check received payments.</p>
       <p>The registration process enforces email verification, password complexity, and valid name and last name requirements. The first registered user is automatically granted the Admin role, and subsequent users receive the User role, with Admins assigning the Accountant role.</p>
-      <p>The service requires Java version 17+, and the project can be built and run using the provided instructions. The Actuator feature enables server shutdown via a POST request to the `https://localhost:8080/actuator/shutdown` endpoint.</p>
       <p>Various endpoints cater to different user roles, enabling actions like modifying user access and roles, processing payments, and auditing server events. General endpoints allow users to retrieve payment information and change passwords.</p>
       <p>HTTP requests, demonstrated using Postman, showcase the functionality of registering users, modifying access and roles, processing payments, and auditing server events.</p>
     </div>
