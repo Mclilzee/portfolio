@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: SourceCodePro;
+  font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -13,7 +13,7 @@
 }
 
 @font-face {
-  font-family: SourceCodePro;
+  font-family: "Source Code Pro";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -21,7 +21,7 @@
 }
 
 @font-face {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -30,7 +30,7 @@
 
 
 @font-face {
-  font-family: SourceSansPro;
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -38,8 +38,8 @@
 }
 
 :root {
-  --ff-primary: SourceSansPro, sans-serif;
-  --ff-secondary: SourceCodePro, monospace;
+  --ff-primary: "Source Sans Pro", sans-serif;
+  --ff-secondary: "Source Code Pro", monospace;
 
   --fw-reg: 300;
   --fw-bold: 900;
