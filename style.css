@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./fonts/SourceCodePro-400.woff2") format("woff2");
+  src: url("./fonts/SourceCodePro-400.ttf");
 }
 
 @font-face {
@@ -17,7 +17,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("./fonts/SourceCodePro-900.woff2") format("woff2");
+  src: url("./fonts/SourceCodePro-900.ttf");
 }
 
 @font-face {
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("./fonts/SourceSansPro-300.woff2") format("woff2");
+  src: url("./fonts/SourceSansPro-300.ttf");
 }
 
 
@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("./fonts/SourceSansPro-900.woff2") format("woff2");
+  src: url("./fonts/SourceSansPro-900.ttf");
 }
 
 :root {
