@@ -336,6 +336,10 @@ section.intro > .links a > img {
     min-width: 250px;
   }
 
+  section.intro > img.portfolio-image {
+    min-width: 400px;
+  }
+
   section.intro > .subtitle {
     align-self: start;
     grid-column: -1 / 1;
@@ -540,8 +544,4 @@ footer ul {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.portfolio-image {
-  min-width: 800px;
 }
