@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accounts Service</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h3 class="logo">&lt;devemad&gt;</h3>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../index.html#home">Home</a></li>
+          <li><a href="../index.html#my-services">My Services</a></li>
+          <li><a href="../index.html#about">About me</a></li>
+          <li><a href="../index.html#work">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h2 class="title">Rust<strong>IMDb To Sqlite</strong></h2>
+      <p class="subtitle">IMDb To Sqlite Parser</p>
+      <img src="../imgs/imdb-to-sqlite.png" alt="Progress bars progress showing IMDb to Sqlite conversion progress">
+      <ul class="links">
+        <li>
+          <a target="_blank" href="https://github.com/Mclilzee/imdb-to-sqlite">Source Code <img src="../icons/github.svg" alt="GitHub logo"/></a>
+        </li>
+      </ul>
+    </section>
+        <div class="portfolio-item-individual">
+            <p>Developed a high-performance tool in Rust that converts IMDb Tab Separated Values (TSV) files into SQLite databases with a variety of customizable options. Users can select specific tables to generate from the IMDb dataset based on their needs.</p>
+            <img src="../imgs/imdb-to-sqlite.png" alt="Progress bars progress showing IMDb to Sqlite conversion progress">
+            <p>The tool features a dynamic progress bar to track the conversion process in real-time, providing clear feedback on the status of each table being generated. This ensures users can monitor the progress of large dataset conversions efficiently.</p>
+            <p>Error handling is robust, with configurable flags to log any data insertion errors encountered during the conversion process. This allows users to review issues and ensure data integrity without interrupting the overall conversion workflow.</p>
+            <p>Written entirely in Rust, the tool leverages the language’s speed and memory safety to handle large IMDb datasets efficiently while maintaining high reliability during the conversion process. It is designed to handle both full and partial IMDb datasets, providing flexibility depending on the user's specific use case.</p>
+            <p>With its comprehensive table generation options, progress tracking, and error logging, this tool streamlines the process of converting IMDb TSV files into an easy-to-query SQLite database, making it suitable for education and personal use alike.</p>
+            <p>In addition to its core functionality, the tool is well-documented and optimized for ease of use, making it a valuable asset for anyone working with IMDb data in a SQLite environment.</p>
+        </div>
+    <footer>
+      <a href="mailto:emad.ali.ali@hotmail.com" class="email">emad.ali.ali@hotmail.com</a>
+      <ul class="social-list">
+        <li>
+          <a target="_blank" href="https://github.com/Mclilzee"><img src="../icons/github-accent.svg" class="github icon"></img></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/mclilzee/"><img src="../icons/linkedin.svg" class="linkedin icon"></img></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
