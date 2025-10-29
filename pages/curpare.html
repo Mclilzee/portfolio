@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Mapper</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h3 class="logo">&lt;devemad&gt;</h3>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="../index.html#home">Home</a></li>
+          <li><a href="../index.html#my-services">My Services</a></li>
+          <li><a href="../index.html#about">About me</a></li>
+          <li><a href="../index.html#work">My Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h2 class="title">Rust<strong>Curpare</strong></h2>
+      <p class="subtitle">Curpare CLI Tool</p>
+      <img src="../imgs/curpare.png" alt="Showing different in data between two JSON in a split screen" />
+      <ul class="links">
+        <li>
+          <a target="_blank" href="https://github.com/Mclilzee/curpare">Source Code <img src="../icons/github.svg" alt="GitHub logo"/></a>
+        </li>
+      </ul>
+    </section>
+    <div class="portfolio-item-individual">
+      <p>Curpare is a powerful tool designed to compare the return values, status codes, and bodies of JSON APIs seamlessly. It leverages git-delta to present the output in a clear and user-friendly manner. With Curpare, you can define multiple API endpoints to compare, utilize environment variables, and specify various options for each comparison.</p>
+      <img project" src="../imgs/curpare.png" alt="Showing different in data between two JSON in a split screen" />
+      <ul>
+        <li><strong>Flexible TOML Configuration:</strong> Define as many API links as you wish in a TOML format. Each comparison can be customized with specific options.</li>
+        <li><strong>Caching System: Caching System:</strong> Cache the API calls by caching them to avoid unnecessary API calls. You can utilize the cache system to compare the same API by caching a call and checking it against a live version of the same API. This will make sure you can focus on making progress while having a backup test to see the changes in seconds.</li>
+        <li><strong>Multiple Cache Versions:</strong> Each cached response is stored in its own JSON file within the cache directory, enabling you to maintain multiple versions of the same API for comparison.</li>
+        <li><strong>Ignore Lines:</strong> Specify lines to ignore during comparisons, making it easier to focus on relevant differences.</li>
+        <li><strong>Environment Variables:</strong> Use environment variables in your TOML configuration for dynamic URL resolution.</li>
+      </ul>
+    </div>
+    <footer>
+      <a href="mailto:emad.ali.ali@hotmail.com" class="email">emad.ali.ali@hotmail.com</a>
+      <ul class="social-list">
+        <li>
+          <a target="_blank" href="https://github.com/Mclilzee"><img src="../icons/github-accent.svg" class="github icon"></img></a>
+        </li>
+        <li>
+          <a target="_blank" href="https://www.linkedin.com/in/mclilzee/"><img src="../icons/linkedin.svg" class="linkedin icon"></img></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
